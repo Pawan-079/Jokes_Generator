@@ -1,6 +1,6 @@
 
 
-## **Joke Generator** 🤣
+# **Joke Generator** 🤣
 
 Click to generate Jokes continuously
 
