@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Adding a "laughing" color effect */
+.joke {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+    animation: laughEffect 1s infinite; /* Animation added */
+}
+
+/* Define the laughing color effect */
+@keyframes laughEffect {
+    0% { color: #ff6347; }   /* Tomato */
+    25% { color: #ffa500; }  /* Orange */
+    50% { color: #32cd32; }  /* LimeGreen */
+    75% { color: #1e90ff; }  /* DodgerBlue */
+    100% { color: #ff1493; } /* DeepPink */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
